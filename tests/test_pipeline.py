@@ -1,6 +1,6 @@
-from src.retail_demand.data import generate_retail_sales
-from src.retail_demand.features import build_features
-from src.retail_demand.inventory import build_inventory_recommendations
+from retail_demand.data import generate_retail_sales
+from retail_demand.features import build_features
+from retail_demand.inventory import build_inventory_recommendations
 
 
 def test_generate_retail_sales_has_expected_columns():

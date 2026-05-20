@@ -1,9 +1,9 @@
-from src.retail_demand.config import FIGURES, FORECAST_RESULTS, INVENTORY_RECOMMENDATIONS, MODEL_METRICS, RAW_SALES
-from src.retail_demand.data import save_raw_sales
-from src.retail_demand.features import build_features
-from src.retail_demand.inventory import build_inventory_recommendations
-from src.retail_demand.modeling import train_models
-from src.retail_demand.reporting import create_figures
+from retail_demand.config import FIGURES, FORECAST_RESULTS, INVENTORY_RECOMMENDATIONS, MODEL_METRICS, RAW_SALES
+from retail_demand.data import save_raw_sales
+from retail_demand.features import build_features
+from retail_demand.inventory import build_inventory_recommendations
+from retail_demand.modeling import train_models
+from retail_demand.reporting import create_figures
 
 
 def main():
