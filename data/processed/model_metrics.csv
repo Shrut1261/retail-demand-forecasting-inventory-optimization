@@ -1,0 +1,5 @@
+model,mae,rmse,mape
+gradient_boosting,9.921,17.415,0.213
+random_forest,10.002,17.534,0.2052
+ridge_regression,11.078,18.725,0.273
+lag_7_baseline,14.1,24.909,0.2783

@@ -1,0 +1,2 @@
+"""Retail demand forecasting and inventory optimization package."""
+
